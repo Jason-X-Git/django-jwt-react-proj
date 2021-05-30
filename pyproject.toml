@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "django-jwt-react-proj"
+version = "0.1.0"
+description = ""
+authors = ["Jason Xue <jasonxue1228@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+Django = "^3.2.3"
+djangorestframework = "^3.12.4"
+djangorestframework-simplejwt = "^4.7.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
